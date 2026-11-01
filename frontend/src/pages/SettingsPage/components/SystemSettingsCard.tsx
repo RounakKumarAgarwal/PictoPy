@@ -75,7 +75,7 @@ const SystemSettingsCard: React.FC = () => {
           </div>
         </div>
 
-          <Switch
+        <Switch
           checked={isChecked}
           onCheckedChange={handleToggle}
           disabled={isDisabled}
@@ -98,7 +98,7 @@ const SystemSettingsCard: React.FC = () => {
           </div>
         </div>
 
-          <Switch
+        <Switch
           checked={closeToTrayChecked}
           onCheckedChange={handleCloseToTrayToggle}
           disabled={closeToTrayDisabled}
